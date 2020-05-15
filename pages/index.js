@@ -1,35 +1,20 @@
 import Head from 'next/head'
 import Layout from '../components/Layout'
-
+import Header from '../components/Header'
+import Hero from '../components/HeroSection'
 
 export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Create Next App</title>
+        <title>Mauricio Gonzalez</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"></link>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Playfair+Display:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
-      <div class="grid">
-        <header>
-          Header
-        </header>
-
-        <aside class="sidebar-left">
-          Left Sidebar
-        </aside>
-
-        <article>
-          Article
-        </article>
-
-        <aside class="sidebar-right">
-          Right Sidebar
-        </aside>
-        
-        <footer>
-          Footer
-        </footer>
-      </div>
-      
+      <Header />
+      <Hero  />
 
     </Layout>
   )
