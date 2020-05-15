@@ -12,6 +12,7 @@ function Hero() {
                 .hero {
                     position: relative;
                     top: 40%;
+                    font-weight: bold;
                     color: rgb(230, 233, 245);
                 }
                 .subhero {

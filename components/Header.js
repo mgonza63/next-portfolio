@@ -1,11 +1,10 @@
 function Header() {
     return (
         <header className="u-full-width">
-            
+            <h5>Gosify Media</h5>   
             <ul>
-                <h6>Gosify Media</h6>
                 <li>
-                <h6>Contacto</h6>
+                    <h6>Contacto</h6>
                 </li>
                 <li>
                     <h6>Paquetes</h6>
@@ -17,6 +16,12 @@ function Header() {
             </ul>
      <style jsx>{`
 
+        h5 {
+            color: rgb(230, 233, 245);
+            font-weight: lighter;
+            font-size: 20px;
+
+        }
         h6 {
             color: rgb(230, 233, 245);
         }
@@ -26,7 +31,26 @@ function Header() {
             display: inline-block;
             float: right;
             position: relative;
-            top: -5vh;
+            top: -5.2vh;
+        }
+        .barPhone {
+            display: none;
+        }
+        @media only screen and (max-width: 600px) {
+            h5 {
+                text-align: center;
+            }
+            ul {
+                display: table;
+                margin: 0 auto;
+            }
+            li {
+                top: 1vh;
+                left: 6.5vw;
+
+            }
+
+
         }
     `}
     </style>
