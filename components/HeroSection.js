@@ -17,7 +17,7 @@ function Hero() {
                 main {
                     height: 80vh;
                     width: 100vw;
-                    right: 100px;
+                    background: #3e3e3e ;
                     background: linear-gradient(270deg, #1f2020, #2e2f30, #202324);
 
 
@@ -34,6 +34,7 @@ function Hero() {
                 .subhero {
                     position: relative;
                     top: 18vh;
+                    /* color: #D6C7A1; */
                     color: rgb(166, 168, 172);
                     font-weight: lighter;
                     font-size: 20px;  
