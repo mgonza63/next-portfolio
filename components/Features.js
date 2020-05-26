@@ -20,11 +20,11 @@ function Features() {
                             </div>
                     </div>
                 </div>
-                <div className="four columns" onClick={() => setState({ ...state, title: "Community Manager", description: "Creamos Campañas publicitarias para hacerte llegar al cliente ideal y lograr expandir tus ventas, interactuamos con los seguidores y desarrollamos contenido digital de calidad para que tus redes estén activas y no pierdan presencia en el mercado." })}>
+                <div className="four columns" onClick={() => setState({ ...state, title: "Community Manager", description: "Creamos campañas publicitarias para hacerte llegar al cliente ideal y lograr expandir tus ventas, interactuamos con los seguidores y desarrollamos contenido digital de calidad para que tus redes estén activas y no pierdan presencia en el mercado." })}>
                     <div className="card">
                         <img src="/logo.png" alt="logo"></img>
                             <div className="content">
-                                <p>Arranca tu presencia online con el Paquete de Redes Sociales</p>
+                                <p>Eleva tu identidad en linea con el paquete de Community Manager</p>
                             </div>
                     </div>
                 </div>
@@ -47,7 +47,11 @@ function Features() {
             </div>
 
             <style jsx>{`
-
+                @font-face {
+                    font-family:'Montserrat';
+                    src: url('/fonts/Montserrat-Medium.ttf');
+                    font-weight: bold;
+                }
                 .wrapper {
                     align-items: center;
                     display: flex;
@@ -73,6 +77,7 @@ function Features() {
                 }
                 .content {
                     flex: 1;
+                    font-family: Montserrat;
                     
                 }
                 img {
@@ -92,7 +97,9 @@ function Features() {
                 .cardTitle, .description {
                     padding-left: 15px;
                 }
-
+                .description {
+                    font-family: Montserrat;
+                }
                 .card:hover img{
                     -webkit-transform: scale(1.1);
                     transform: scale(1.1);

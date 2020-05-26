@@ -2,10 +2,8 @@ html,
 body {
 
   font-family: 'Playfair Display', serif;
-
   padding: 0%;
   margin: 0%;
-  
 
 
 }
@@ -19,7 +17,6 @@ body {
   
   header, footer {
     padding: 0.5rem;
-
   }
   
 
