@@ -2,7 +2,8 @@ function Contact() {
     return(
         <div className="container contact">
             <h4>Para una consulta gratis o mas Información</h4>
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" />
                 <div class="row">
                     <div class="six columns">
                     <label for="name">Nombre</label>
