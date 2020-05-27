@@ -29,7 +29,7 @@ function Header() {
         h5 {
             color: rgb(230, 233, 245);
             font-weight: lighter;
-            font-size: 20px;
+            font-size: 25px;
 
         }
         h6 {

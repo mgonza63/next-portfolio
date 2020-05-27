@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Hero from '../components/HeroSection'
 import Features from '../components/Features'
+import Contact from '../components/Contact'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       <Header />
       <Hero  />
       <Features />
-
+      <Contact />
     </Layout>
   )
 }
