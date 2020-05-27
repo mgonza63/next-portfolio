@@ -14,7 +14,7 @@ function Header() {
                         Paquetes
                     </li>
                     <li className="nav-item">
-                        About
+                        Nosotros
                     </li>
                 </ul>
             </nav>

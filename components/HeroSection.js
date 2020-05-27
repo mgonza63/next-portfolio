@@ -10,14 +10,14 @@ function Hero() {
 
             {/* F6E7C1 - D6C7A1 - FFA25B - F4722B - 3e3e3e  */}
 
-
+            <img src="/logo-white.png"></img>
             <style jsx>{`
 
 
                 main {
                     height: 80vh;
                     width: 100vw;
-                    background: #3e3e3e ;
+                    /* background: #3e3e3e ; */
                     background: linear-gradient(270deg, #1f2020, #2e2f30, #202324);
 
 
@@ -30,6 +30,7 @@ function Hero() {
                     top: 20vh;
                     font-weight: bold;
                     color: rgb(230, 233, 245);
+                    z-index: 1000;
                 }
                 .subhero {
                     position: relative;
@@ -58,6 +59,14 @@ function Hero() {
                     right: 10%;
                     top: 30vw;
                 }
+                img {
+                    opacity: 0.1;
+                    position: absolute;
+                    /* width: 438px; */
+                    width: 60%;
+                    left: 40%;
+                    top: 50%;
+                }
                 @media only screen and (max-width: 600px) {
                     .hero  {
                         top: 20vh;
@@ -69,12 +78,29 @@ function Hero() {
                         position: relative;
                         top: 18vh;
                     }
+                    img {
+                        left: 35%;
+                        top: 50vh;
+                    }
                 }
-                
+                @media only screen and (min-width: 900px) {
+                    img {
+                        max-width: 600px;
+                        top: 30%;
+                    }
+                    
+                }
+                @media only screen and (min-width: 1200px) {
+                    img {
+                        max-width: 600px;
+                        top: 30%;
+                        left: 
+                    }
+                }
 
             `}
             </style>
-
+                
         </main>
         
     )

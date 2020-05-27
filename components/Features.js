@@ -50,7 +50,6 @@ function Features() {
                 @font-face {
                     font-family:'Montserrat';
                     src: url('/fonts/Montserrat-Medium.ttf');
-                    font-weight: bold;
                 }
                 .wrapper {
                     align-items: center;
