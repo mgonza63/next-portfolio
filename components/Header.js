@@ -1,3 +1,6 @@
+import Link from 'next/link'
+
+
 function Header() {
     return (
         <header className="u-full-width">
@@ -13,9 +16,9 @@ function Header() {
                     <li className="nav-item">
                         Paquetes
                     </li>
-                    <li className="nav-item">
+                    <Link href="/nosotros"><a><li className="nav-item">
                         Nosotros
-                    </li>
+                    </li></a></Link>
                 </ul>
             </nav>
      <style jsx>{`
