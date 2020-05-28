@@ -4,9 +4,9 @@ function Footer() {
     return(
         <footer className="u-full-width">
             <div className="row">
-                <div className="six columns">
+                <Link href="/"><div className="six columns">
                     <img src="/logo-white.png"></img>
-                </div>
+                </div></Link>
                 <div className="six columns">
                     <h5>Redes Sociales</h5>
                     <a href="https://www.facebook.com/Gosify-Media-100182715040017" target="blank"><img className="icons" src="/facebook.svg"></img></a>
@@ -22,6 +22,7 @@ function Footer() {
                 img {
                     width: 100px;
                     padding: 20px;
+                    cursor: pointer;
                 }
                 .icons {
                     width: 30px;
