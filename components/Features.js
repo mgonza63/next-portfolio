@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 
 function Features() {
@@ -16,15 +16,15 @@ function Features() {
                     <div className="card" onClick={() => setState({ ...state, title: 'Redes Sociales', description: 'Creamos perfiles de tu empresa en las redes sociales más populares y te diseñamos contenido de acuerdo a ti y a tu mercado para darle la identidad necesaria y sacarle ventaja a la competencia.'})}>
                             <img src="/rocket-icon.svg" alt="rocket icon"></img>
                             <div className="content">
-                                <p>Arranca tu presencia en linea con uno de los <u>Paquetes de Redes Sociales</u>.</p>
+                                <p>Arranca tu presencia en linea con uno de los <u>Paquetes de Redes Sociales</u>. <img src="/arrow-down.svg" id="arrow" alt="arrow down"></img></p>
                             </div>
                     </div>
                 </div>
                 <div className="four columns" onClick={() => setState({ ...state, title: "Community Manager", description: "Creamos campañas publicitarias para hacerte llegar al cliente ideal y lograr expandir tus ventas, interactuamos con los seguidores y desarrollamos contenido digital de calidad para que tus redes estén activas y no pierdan presencia en el mercado." })}>
-                    <div className="card">
+                    <div className="card middle">
                         <img src="/manager.svg" alt="group icon"></img>
                             <div className="content">
-                                <p>Eleva la identidad en linea de tu empresa con el Paquete de Community Manager.</p>
+                                <p>Eleva la identidad en linea de tu empresa con el <u>Paquete de Community Manager</u>.<img src="/arrow-down.svg" id="arrow" alt="arrow down"></img></p>
                             </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ function Features() {
                     <div className="card" onClick={() => setState({ ...state, title: "Página Web", description: "Desarrollamos tu página web con lenguajes de programación de acuerdo a tus gustos y necesidades que te ayudarán a mantenerte a la vista y en contacto de tus clientes y seguidores. Nuestro compromiso es entregarte una página profesional y dinámica." })}>
                         <img src="/web.svg" alt="website icon"></img>
                             <div className="content">
-                                <p>Dale un toque profesional a tu compañia con un Sitio Web.</p>
+                                <p>Dale un toque profesional a tu compañia con un <u>Sitio Web</u>.<img src="/arrow-down.svg" id="arrow" alt="arrow down"></img></p>
                             </div>
                     </div>
                 </div>
@@ -40,6 +40,7 @@ function Features() {
                 <div className="twelve columns">
                     <h3 className="cardTitle">{state.title}</h3>
                     <p className="description">{state.description}</p>
+                    <button>Paquete Completo ➡</button>
                 </div>
             </div>
 
@@ -74,6 +75,10 @@ function Features() {
 
         /* Layout each column */
                 }
+                .middle {
+                    /* border-right: 1px solid black;
+                    border-left: 1px solid black; */
+                }
                 .content {
                     flex: 1;
                     font-family: Montserrat;
@@ -93,16 +98,26 @@ function Features() {
                     transition-property: transform;
 
                 }
+
+                #arrow {
+                    width: 15px;
+                }
                 .cardTitle, .description {
                     padding-left: 15px;
                 }
                 .description {
                     font-family: Montserrat;
                 }
+                button {
+                    position: relative;
+                    left: 50%;
+                    font-family: Montserrat;
+                }
                 .card:hover img{
                     -webkit-transform: scale(1.1);
                     transform: scale(1.1);
                 }
+
                 @media only screen and (max-width: 600px) {
                     .wrapper {
                         display: block;

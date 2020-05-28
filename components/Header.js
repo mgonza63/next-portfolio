@@ -13,9 +13,9 @@ function Header() {
                     <li className="nav-item">
                         Contacto
                     </li>
-                    <li className="nav-item">
+                    <Link href="/paquetes"><a><li className="nav-item">
                         Paquetes
-                    </li>
+                    </li></a></Link>
                     <Link href="/nosotros"><a><li className="nav-item">
                         Nosotros
                     </li></a></Link>
@@ -23,7 +23,9 @@ function Header() {
             </nav>
      <style jsx>{`
         header {
-            background: linear-gradient(270deg, #1f2020, #2e2f30, #202324);
+            background: #3e3e3e;
+            box-shadow: 0 10px 10px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0);
+
 
         }
         a {

@@ -19,6 +19,17 @@ function Contact() {
                 <textarea className="u-full-width" name="message" placeholder="Quisiera mas información acerca de..." id="message"></textarea>
                 <input className="button-primary" type="submit" value="Submit" />
                 </form>
+                <style jsx>{`
+                        @font-face {
+                            font-family:'Montserrat';
+                            src: url('/fonts/Montserrat-Medium.ttf');
+                            }
+                            label {
+                                font-family: Montserrat;
+                            }
+
+                        `}
+                </style>
         </div>
     )
 }
