@@ -10,9 +10,9 @@ function Header() {
             <nav className="navbar">
 
                 <ul className="navbar-nav">
-                    <li className="nav-item">
+                    <a href="mailto:gosifymedia@gmail.com"><li className="nav-item">
                         Contacto
-                    </li>
+                    </li></a>
                     <Link href="/paquetes"><a><li className="nav-item">
                         Paquetes
                     </li></a></Link>
@@ -23,7 +23,7 @@ function Header() {
             </nav>
      <style jsx>{`
         header {
-            background: #3e3e3e;
+            background: linear-gradient(270deg, #1f2020, #2e2f30, #202324);
             box-shadow: 0 10px 10px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0);
 
 

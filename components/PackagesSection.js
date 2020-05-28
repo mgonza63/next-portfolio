@@ -68,7 +68,7 @@ function PackageSection() {
                             </ul>
                         </div>
                         <div className="four columns">
-                        <h5 className="title t2">Mediano <span>$500</span></h5>
+                        <h5 className="title t2">Mediano <span>$4,899</span></h5>
                             <ul>
                                 <li>
                                     15 publicaciones al mes.
@@ -92,7 +92,7 @@ function PackageSection() {
                             </ul>
                         </div>
                         <div className="four columns">
-                        <h5 className="title t3">Avanzado <span>$500</span></h5>
+                        <h5 className="title t3">Avanzado <span>$5,499</span></h5>
                             <ul>
                                 <li>
                                     18 publicaciones al mes.

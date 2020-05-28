@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import Link from 'next/link'
 
 
 function Features() {
@@ -40,7 +41,7 @@ function Features() {
                 <div className="twelve columns">
                     <h3 className="cardTitle">{state.title}</h3>
                     <p className="description">{state.description}</p>
-                    <button>Paquete Completo ➡</button>
+                    <Link href="/paquetes"><a><button>Visita Nuestros Paquetes ➡</button></a></Link>
                 </div>
             </div>
 

@@ -1,10 +1,11 @@
+
 function Hero() {
     return (
         <main className="container-fluid">
             <div className="container">
-                <h1 className="hero">Crea tu Comumidad Digital</h1>
-                <h5 className="subhero">Desarolla tu presencia en linea con facilidad y efectividad</h5>
-                <button className="action"><p>Consulta gratuita</p></button>
+                <h1 className="hero">Crea tu Comunidad Digital</h1>
+                <h5 className="subhero">Desarolla tu presencia en línea con facilidad y efectividad</h5>
+                <button  className="action"><a href="mailto:gosifymedia@gmail.com?subject=Consulta%20Gratis"><p>Consulta gratuita</p></a></button>
             </div>
             {/* <img className="u-max-width chat" alt="chat" src="/mobile-iso.png"></img> */}
 
@@ -12,7 +13,10 @@ function Hero() {
 
             <img src="/logo-white.png"></img>
             <style jsx>{`
-
+                @font-face {
+                    font-family:'Montserrat';
+                    src: url('/fonts/Montserrat-Medium.ttf');
+                }
 
                 main {
                     height: 80vh;
@@ -22,9 +26,9 @@ function Hero() {
 
 
                 }
-            .container-fluid {
-                left: 500px;
-            }
+                .container-fluid {
+                    left: 500px;
+                }
                 .hero {
                     position: relative;
                     top: 20vh;
@@ -43,13 +47,16 @@ function Hero() {
                 button {
                     position: relative;
                     top: 18vh;
-                    background-color: #F4722B;
+                    background-color: #f07b3f;
                     border: none;
                     
                 }
                 button p {
-                    color: #201f1f;
+                    color: white;
+                    font-family: Montserrat;
+
                 }
+
                 p {
                     color: #3e3e3e;
                 }
@@ -66,6 +73,9 @@ function Hero() {
                     width: 60%;
                     left: 40%;
                     top: 50%;
+                }
+                a {
+                    text-decoration: none;
                 }
                 @media only screen and (max-width: 600px) {
                     .hero  {
