@@ -17,7 +17,7 @@ function Contact() {
                 </div>
                 <label for="message">Mensaje</label>
                 <textarea className="u-full-width" name="message" placeholder="Quisiera mas información acerca de..." id="message"></textarea>
-                <input className="button-primary" type="submit" value="Submit" />
+                <input className="button" type="submit" value="Enviar" />
                 </form>
                 <style jsx>{`
                         @font-face {
