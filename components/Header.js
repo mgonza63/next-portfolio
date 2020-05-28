@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className="u-full-width">
             {/* <img src="/logo.png" /> */}
-            <h5>Gosify Media</h5>
+            <Link href="/"><a><h5>Gosify Media</h5></a></Link>
 
             <nav className="navbar">
 
@@ -25,6 +25,9 @@ function Header() {
         header {
             background: linear-gradient(270deg, #1f2020, #2e2f30, #202324);
 
+        }
+        a {
+            text-decoration: none;
         }
         img {
             width: 50px;

@@ -5,7 +5,7 @@ function Features() {
     // const packages 
     const [state, setState] = useState({
             title: 'Redes Sociales',
-            description: 'Creamos perfiles de tu empresa en las redes sociales más populares y te creamos contenido de acuerdo a ti y a tu mercado para darle la identidad necesaria y sacarle ventaja a la competencia.'
+            description: 'Creamos perfiles de tu empresa en las redes sociales más populares y te diseñamos contenido de acuerdo a ti y a tu mercado para darle la identidad necesaria y sacarle ventaja a la competencia.'
     });
 
 
@@ -13,26 +13,26 @@ function Features() {
         <div className="container wrapper">
             <div className="row">
                 <div className="four columns">
-                    <div className="card" onClick={() => setState({ ...state, title: 'Redes Sociales', description: 'Arranca tu presencia en linea y sacale ventaja a la competencia con contenido de calidad creado por nosotros de acuerdo a lo que buscas.'})}>
-                            <img src="/logo.png" alt="logo"></img>
+                    <div className="card" onClick={() => setState({ ...state, title: 'Redes Sociales', description: 'Creamos perfiles de tu empresa en las redes sociales más populares y te diseñamos contenido de acuerdo a ti y a tu mercado para darle la identidad necesaria y sacarle ventaja a la competencia.'})}>
+                            <img src="/rocket-icon.svg" alt="rocket icon"></img>
                             <div className="content">
-                                <p>Arranca tu presencia online con el Paquete de Redes Sociales</p>
+                                <p>Arranca tu presencia en linea con uno de los <u>Paquetes de Redes Sociales</u>.</p>
                             </div>
                     </div>
                 </div>
                 <div className="four columns" onClick={() => setState({ ...state, title: "Community Manager", description: "Creamos campañas publicitarias para hacerte llegar al cliente ideal y lograr expandir tus ventas, interactuamos con los seguidores y desarrollamos contenido digital de calidad para que tus redes estén activas y no pierdan presencia en el mercado." })}>
                     <div className="card">
-                        <img src="/logo.png" alt="logo"></img>
+                        <img src="/manager.svg" alt="group icon"></img>
                             <div className="content">
-                                <p>Eleva tu identidad en linea con el paquete de Community Manager</p>
+                                <p>Eleva la identidad en linea de tu empresa con el Paquete de Community Manager.</p>
                             </div>
                     </div>
                 </div>
                 <div className="four columns">
-                    <div className="card" onClick={() => setState({ ...state, title: "Página Web", description: "Desarrollamos tu página web desde cero de acuerdo a ttus gustos y necesidades que te ayudarán a mantenerte a la vista y en contacto de tus clientes y seguidores. Nuestro compromiso es entregarte una página profesional y dinámica." })}>
-                        <img src="/logo.png" alt="logo"></img>
+                    <div className="card" onClick={() => setState({ ...state, title: "Página Web", description: "Desarrollamos tu página web con lenguajes de programación de acuerdo a tus gustos y necesidades que te ayudarán a mantenerte a la vista y en contacto de tus clientes y seguidores. Nuestro compromiso es entregarte una página profesional y dinámica." })}>
+                        <img src="/web.svg" alt="website icon"></img>
                             <div className="content">
-                                <p>Arranca tu presencia online con el Paquete de Redes Sociales</p>
+                                <p>Dale un toque profesional a tu compañia con un Sitio Web.</p>
                             </div>
                     </div>
                 </div>
