@@ -111,7 +111,7 @@ function Features() {
                 }
                 button {
                     position: relative;
-                    left: 50%;
+                    left: 20vw;
                     font-family: Montserrat;
                 }
                 .card:hover img{
