@@ -13,9 +13,9 @@ function Header() {
                     <a href="mailto:gosifymedia@gmail.com"><li className="nav-item">
                         Contacto
                     </li></a>
-                    <Link href="/paquetes"><a><li className="nav-item">
+                    <a><Link href="/paquetes"><li className="nav-item">
                         Paquetes
-                    </li></a></Link>
+                    </li></Link></a>
                     <Link href="/nosotros"><a><li className="nav-item">
                         Nosotros
                     </li></a></Link>
