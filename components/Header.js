@@ -19,18 +19,8 @@ function Header() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link href="/pricing">
-                            <a>Pricing</a>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link href="/packages">
-                            <a>Nuestros Paquetes</a>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link href="/packages">
-                            <a>Another pricing</a>
+                        <Link href="/paquetes">
+                            <a>Paquetes</a>
                         </Link>
                     </li>
                     

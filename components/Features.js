@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Link from 'next/link'
+import Router from 'next/router'
 
 
 function Features() {
@@ -41,7 +41,7 @@ function Features() {
                 <div className="twelve columns">
                     <h3 className="cardTitle">{state.title}</h3>
                     <p className="description">{state.description}</p>
-                    <Link href="/paquetes"><a><button>Visita Nuestros Paquetes ➡</button></a></Link>
+                    <button onClick={() => Router.push('/paquetes')}>Visita Nuestros Paquetes ➡</button>
                 </div>
             </div>
 
