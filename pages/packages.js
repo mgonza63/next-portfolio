@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import PackagesSection from '../components/PackagesSection'
-export default function Paquetes() {
+export default function Pricing() {
   return (
      <Layout>
       <Head>
