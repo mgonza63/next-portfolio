@@ -23,6 +23,11 @@ function Header() {
                             <a>Nosotros</a>
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link href="/pricing">
+                            <a>Pricing</a>
+                        </Link>
+                    </li>
                     
                 </ul>
             </nav>
