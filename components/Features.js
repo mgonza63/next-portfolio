@@ -41,7 +41,7 @@ function Features() {
                 <div className="twelve columns">
                     <h3 className="cardTitle">{state.title}</h3>
                     <p className="description">{state.description}</p>
-                    <Link href="/paquetes"><button><a>Visita Nuestros Paquetes ➡</a></button></Link>
+                    {/* <Link href="/paquetes"><button><a>Visita Nuestros Paquetes ➡</a></button></Link> */}
                 </div>
             </div>
 
