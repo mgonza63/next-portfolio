@@ -13,12 +13,17 @@ function Header() {
                     <a href="mailto:gosifymedia@gmail.com"><li className="nav-item">
                         Contacto
                     </li></a>
-                    <a><Link href="/paquetes"><li className="nav-item">
-                        Paquetes
-                    </li></Link></a>
-                    <Link href="/nosotros"><a><li className="nav-item">
-                        Nosotros
-                    </li></a></Link>
+                    <li className="nav-item">
+                        <Link href="/paquetes">
+                            <a>Paquetes</a>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link href="/nosotros">
+                            <a>Nosotros</a>
+                        </Link>
+                    </li>
+                    
                 </ul>
             </nav>
      <style jsx>{`
@@ -54,9 +59,10 @@ function Header() {
             position: relative;
             top: -5.5vh;
         }
-        .barPhone {
-            display: none;
+        a {
+            color:rgb(230, 233, 245);
         }
+
         @media only screen and (max-width: 600px) {
             h5 {
                 text-align: center;

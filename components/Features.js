@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import Link from 'next/link'
 
 
@@ -41,7 +41,7 @@ function Features() {
                 <div className="twelve columns">
                     <h3 className="cardTitle">{state.title}</h3>
                     <p className="description">{state.description}</p>
-                    <Link href="/paquetes"><a><button>Visita Nuestros Paquetes ➡</button></a></Link>
+                    <Link href="/paquetes"><button><a>Visita Nuestros Paquetes ➡</a></button></Link>
                 </div>
             </div>
 
