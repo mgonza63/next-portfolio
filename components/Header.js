@@ -14,11 +14,6 @@ function Header() {
                         Contacto
                     </li></a>
                     <li className="nav-item">
-                        <Link href="/paquetes">
-                            <a>Paquetes</a>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
                         <Link href="/nosotros">
                             <a>Nosotros</a>
                         </Link>
@@ -26,6 +21,11 @@ function Header() {
                     <li className="nav-item">
                         <Link href="/pricing">
                             <a>Pricing</a>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link href="/paquetes">
+                            <a>Paquetes</a>
                         </Link>
                     </li>
                     
