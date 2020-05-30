@@ -4,7 +4,7 @@ function PackageSection() {
             <h4>Redes Sociales</h4>
                 <div className="row">              
                     <div className="four columns">
-                        <h5 className="title t1">Básico <span>$500</span></h5>
+                        <h5 className="title t1">Básico </h5>
                         <ul>
                             <li>
                                 2 Plataformas digitales.
@@ -18,7 +18,7 @@ function PackageSection() {
                         </ul>
                     </div>
                     <div className="four columns">
-                    <h5 className="title t2">Mediano <span>$900</span></h5>
+                    <h5 className="title t2">Mediano</h5>
                         <ul>
                             <li>
                                 2 Plataformas digitales.
@@ -32,7 +32,7 @@ function PackageSection() {
                         </ul>
                     </div>
                     <div className="four columns">
-                    <h5 className="title t3">Avanzado <span>$1,100</span></h5>
+                    <h5 className="title t3">Avanzado</h5>
                         <ul>
                             <li>
                                 2 Plataformas digitales.
@@ -50,11 +50,14 @@ function PackageSection() {
                 <h4>Community Manager <small>( pago mensual )</small></h4>
                     <div className="row">              
                         <div className="four columns">
-                            <h5 className="title t1">Básico <span>$3,099</span></h5>
+                            <h5 className="title t1">Básico</h5>
                             
                             <ul>
                                 <li>
-                                    9 publicaciones al mes.
+                                    12 publicaciones al mes.
+                                </li>
+                                <li>
+                                    12 historias en instagram.
                                 </li>
                                 <li>
                                     Interacción con usuarios.
@@ -68,10 +71,13 @@ function PackageSection() {
                             </ul>
                         </div>
                         <div className="four columns">
-                        <h5 className="title t2">Mediano <span>$4,899</span></h5>
+                        <h5 className="title t2">Mediano </h5>
                             <ul>
                                 <li>
                                     15 publicaciones al mes.
+                                </li>
+                                <li>
+                                    15 historias en instagram.
                                 </li>
                                 <li>
                                     Interacción con usuarios.
@@ -92,10 +98,13 @@ function PackageSection() {
                             </ul>
                         </div>
                         <div className="four columns">
-                        <h5 className="title t3">Avanzado <span>$5,499</span></h5>
+                        <h5 className="title t3">Avanzado</h5>
                             <ul>
                                 <li>
                                     18 publicaciones al mes.
+                                </li>
+                                <li>
+                                    18 historias en instagram.
                                 </li>
                                 <li>
                                     Interacción con usuarios.
@@ -127,7 +136,7 @@ function PackageSection() {
                 <h4>Sitio Web <small>( +mantenimiento mensual y dominio )</small></h4>
                     <div className="row">              
                         <div className="four columns">
-                            <h5 className="title t1">Básico <span>$3,799</span></h5>
+                            <h5 className="title t1">Básico</h5>
                             <ul>
                                 <li>
                                     Diseño de Web Personalizado.
@@ -147,7 +156,7 @@ function PackageSection() {
                             </ul>
                         </div>
                         <div className="four columns">
-                        <h5 className="title t2">Mediano <span>$5,499</span></h5>
+                        <h5 className="title t2">Mediano</h5>
                             <ul>
                                 <li>
                                     Diseño de Web Personalizado.
@@ -176,7 +185,7 @@ function PackageSection() {
                             </ul>
                         </div>
                         <div className="four columns">
-                        <h5 className="title t3">Avanzado <span>$6,499</span></h5>
+                        <h5 className="title t3">Avanzado</h5>
                             <ul>
                                 <li>
                                     Diseño de Web Personalizado.
