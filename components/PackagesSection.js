@@ -91,9 +91,6 @@ function PackageSection() {
                                 <li>
                                     Facebook Ads.
                                 </li>
-                                <li>
-                                    1 Post en un grupo especializado.
-                                </li>
                                 
                             </ul>
                         </div>
@@ -117,9 +114,6 @@ function PackageSection() {
                                 </li>
                                 <li>
                                     Facebook Ads.
-                                </li>
-                                <li>
-                                    1 Post en un grupo especializado.
                                 </li>
                                 <li>
                                     Sesión de fotos

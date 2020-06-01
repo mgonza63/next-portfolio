@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className="u-full-width">
             {/* <img src="/logo.png" /> */}
-            <Link href="/"><a><h5>Gosify Media</h5></a></Link>
+            <Link href="/"><a><h1>Gosify Media</h1></a></Link>
 
             <nav className="navbar">
 
@@ -39,7 +39,7 @@ function Header() {
         img {
             width: 50px;
         }
-        h5 {
+        h1 {
             color: rgb(230, 233, 245);
             font-weight: lighter;
             font-size: 25px;
