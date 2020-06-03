@@ -1,12 +1,15 @@
+import {useSpring, useTrail, animated} from 'react-spring'
 
 function Hero() {
+    const props = useSpring({opacity: 1, from: {opacity: 0 }})
+    
     return (
         <main className="container-fluid">
-            <div className="container">
-                <h1 className="hero">Crea tu Comunidad Digital</h1>
+            <animated.div style={props} className="container">
+                <h1 style={props} className="hero">Crea tu Comunidad Digital</h1>
                 <h5 className="subhero">Desarolla tu presencia en línea con facilidad y efectividad</h5>
                 <button  className="action"><a href="mailto:gosifymedia@gmail.com?subject=Consulta%20Gratis"><p>Consulta gratuita</p></a></button>
-            </div>
+            </animated.div>
             {/* <img className="u-max-width chat" alt="chat" src="/mobile-iso.png"></img> */}
 
             {/* F6E7C1 - D6C7A1 - FFA25B - F4722B - 3e3e3e  */}

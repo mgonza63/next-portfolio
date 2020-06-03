@@ -7,16 +7,16 @@ function Contact() {
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="row">
                     <div className="six columns">
-                    <label for="name">Nombre</label>
+                    <label htmlFor="name">Nombre</label>
                     <input className="u-full-width" type="text" name="name" placeholder="John Smith" id="name" />
                     </div>
                     <div className="six columns">
-                    <label for="email">E-mail</label>
+                    <label htmlFor="email">E-mail</label>
                     <input className="u-full-width" type="email" name="email" placeholder="me@mailbox.com" id="email" />
 
                     </div>
                 </div>
-                <label for="message">Mensaje</label>
+                <label htmlFor="message">Mensaje</label>
                 <textarea className="u-full-width" name="message" placeholder="Quisiera mas información acerca de..." id="message"></textarea>
                 <input className="button" type="submit" value="Enviar" />
                 </form>

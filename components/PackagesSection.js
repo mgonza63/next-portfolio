@@ -18,7 +18,7 @@ function PackageSection() {
                         </ul>
                     </div>
                     <div className="four columns">
-                    <h5 className="title t2">Mediano</h5>
+                    <h5 className="title t2">Estándar</h5>
                         <ul>
                             <li>
                                 2 Plataformas digitales.
@@ -57,7 +57,7 @@ function PackageSection() {
                                     12 publicaciones al mes.
                                 </li>
                                 <li>
-                                    12 historias en instagram.
+                                    12 historias en Redes Sociales.
                                 </li>
                                 <li>
                                     Interacción con usuarios.
@@ -71,13 +71,13 @@ function PackageSection() {
                             </ul>
                         </div>
                         <div className="four columns">
-                        <h5 className="title t2">Mediano </h5>
+                        <h5 className="title t2">Estándar</h5>
                             <ul>
                                 <li>
                                     15 publicaciones al mes.
                                 </li>
                                 <li>
-                                    15 historias en instagram.
+                                    15 historias en Redes Sociales.
                                 </li>
                                 <li>
                                     Interacción con usuarios.
@@ -101,7 +101,7 @@ function PackageSection() {
                                     18 publicaciones al mes.
                                 </li>
                                 <li>
-                                    18 historias en instagram.
+                                    18 historias en Redes Sociales.
                                 </li>
                                 <li>
                                     Interacción con usuarios.
@@ -150,7 +150,7 @@ function PackageSection() {
                             </ul>
                         </div>
                         <div className="four columns">
-                        <h5 className="title t2">Mediano</h5>
+                        <h5 className="title t2">Estándar</h5>
                             <ul>
                                 <li>
                                     Diseño de Web Personalizado.
